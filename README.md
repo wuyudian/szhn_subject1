@@ -188,7 +188,7 @@ CREATE TABLE `library_book` (
 
 (2)修改配置文件application.properties
 
-![image-20230810130940205](/Users/dian/Library/Application Support/typora-user-images/image-20230810130940205.png)
+![image](https://github.com/wuyudian/szhn_subject1/blob/main/imgForReadme/image-20230810130940205.png)
 
 2、Redis
 
