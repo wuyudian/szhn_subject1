@@ -1,4 +1,4 @@
-##### 一、简介
+### 一、简介
 
 1、开发语言：Java
 
@@ -12,7 +12,7 @@
 
 6、日志：Logger
 
-##### 二、接口说明
+### 二、接口说明
 
 1、创建用户接口
 
@@ -158,7 +158,7 @@
 |  author  |  String  |                             作者                             |
 | category |  String  | 图书类别，小说输入NOVEL，科学输入SCIENCE，历史输入HISTORY，其他则输入OTHER |
 
-##### 三、环境准备
+### 三、环境准备
 
 1、MySQL
 
@@ -196,14 +196,14 @@ CREATE TABLE `library_book` (
 
 (2)修改配置文件application.properties，默认ip为127.0.0.1，默认端口号为6379。如不需要使用redis，可在UserServicerImpl.class和BookServicerImpl.class中注释掉相关使用到的缓存语句。
 
-##### 四、运行
+### 四、运行
 
 Eclipse中run ProjectApplication.java
 
-##### 五、Swagger2
+### 五、Swagger2
 
 (1)URL：http://localhost:8080/swagger-ui.html
 
 (2)UI
 
-![image-20230810132110425](/Users/dian/Library/Application Support/typora-user-images/image-20230810132110425.png)
+![image](https://github.com/wuyudian/szhn_subject1/blob/main/imgForReadme/image-20230810132110425.png)
