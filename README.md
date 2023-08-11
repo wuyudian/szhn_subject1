@@ -186,7 +186,7 @@ CREATE TABLE `library_book` (
   PRIMARY KEY (`book_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-(2)修改配置文件application.properties
+(2)修改配置文件application.properties，设置需要连接的数据库、用户名和密码。
 
 ![image](https://github.com/wuyudian/szhn_subject1/blob/main/imgForReadme/image-20230810130940205.png)
 
